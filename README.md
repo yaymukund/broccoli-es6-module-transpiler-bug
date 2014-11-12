@@ -1,7 +1,11 @@
 broccoli-es6-module-transpiler-bug
 ==================================
 
+----------------------
+
 **Good news, everyone!** I fixed it by changing `output: 'app.cjs.js'` to `output: 'cjs'`. It looks like the plugin just doesn't like `.js` in the output name.
+
+----------------------
 
 To demonstrate bug:
 
